@@ -28,7 +28,7 @@ def solve(bo):
             if solve(bo):
                 return True
         bo[row][col] = 0  # reset the guess
-    return "It's not possible to solve it"
+    return False
 
 
 def valid(bo, num, pos):  # el pos esta restringido a los valores que obtienes del find_empty

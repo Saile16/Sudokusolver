@@ -12,7 +12,6 @@ board = [
 
 
 def solve(bo):
-    print(bo)
     # Obtenemos la posicion de los elementos que esten vacios
     find = find_empty(bo)
     # si ya no existe ninguno termina la funcion
